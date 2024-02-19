@@ -16,7 +16,7 @@ useEffect(()=>{
 const num=async()=>{
 await  dispatch(getProductThunk())   
 }  
-return ()=>num();
+num();
 },[])
   return ( 
     <div className='pagging'>   

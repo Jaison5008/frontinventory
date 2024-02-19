@@ -14,7 +14,7 @@ const Userprofile = () => {
    setDetail(sss.payload.user)
     
     } 
-    return()=>ss()
+    ss()
   },[])
   return (<div className='box' >
     <Card style={{ width: '18rem'}}>

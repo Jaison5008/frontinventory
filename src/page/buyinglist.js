@@ -16,9 +16,9 @@ const ss=await dipatch(getSellThunk())
 const mm=await dipatch(getBuyThunk())  
 setDay(ss.payload.sa) 
 setId(ss.payload.soldItems)
-//console.log(mm)
+console.log(ss)
 } 
-return ()=>mmm()
+mmm()
 },[])
   return ( <div> 
   <div>
